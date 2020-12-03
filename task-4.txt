@@ -1,0 +1,47 @@
+// write a javascript program to find the sign of product of user given 3 numbers
+
+var x=3;
+var y=-7;
+var z=2;
+if (x>0 && y>0 && z>0)
+{
+       alert("The sign is +");
+}
+else if (x<0 && y<0 && z<0)
+        {
+          console.log("The sign is +");
+        }
+        else if (x>0 && y<0 && z<0)
+        {
+          console.log("The sign is +");
+        }
+        else if (x<0 && y>0 && z<0)
+        {
+          console.log("The sign is +");
+        }
+        else
+        {
+          console.log("The sign is -");
+        }
+
+// write a javascript program which iterates the integers from 1 to 100 but for multiple of 3 print "bestenlist", 
+for multiple of 5 print react and for multiple of both print "bestenlistreact".
+
+for (var i=1; i < 101; i++){  
+  if (i % 3 === 0 && i % 5 === 0) {
+ console.log("bestenlistreact");  
+  }
+  else if (i % 3 == 0) {
+ console.log("Bestenlist"); 
+  }
+   else if (i % 5 == 0) {
+ console.log("react");  
+   }  
+else
+{
+ console.log(i);
+}
+}
+
+
+// 
